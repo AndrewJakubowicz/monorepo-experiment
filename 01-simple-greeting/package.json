@@ -1,0 +1,16 @@
+{
+  "name": "02-simple-carousel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/simple-greeting.js",
+  "module": "dist/simple-greeting.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "lit": "^2.2.2"
+  }
+}
