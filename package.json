@@ -1,6 +1,6 @@
 {
   "name": "monorepo-experiment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Each folder is a standalone example.",
   "type": "module",
   "exports": {
