@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-experiment",
+  "version": "1.0.0",
+  "description": "Each folder is a standalone example.",
+  "type": "module",
+  "exports": {
+    "simple-greeting": "./01-simple-greeting/dist/simple-greeting.js",
+    "simple-carousel": "./02-simple-carousel/dist/simple-greeting.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewJakubowicz/monorepo-experiment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewJakubowicz/monorepo-experiment/issues"
+  },
+  "homepage": "https://github.com/AndrewJakubowicz/monorepo-experiment#readme"
+}
