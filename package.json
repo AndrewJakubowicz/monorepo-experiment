@@ -1,11 +1,11 @@
 {
   "name": "monorepo-experiment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Each folder is a standalone example.",
   "type": "module",
   "exports": {
-    "simple-greeting": "./01-simple-greeting/dist/simple-greeting.js",
-    "simple-carousel": "./02-simple-carousel/dist/simple-greeting.js"
+    "./simple-greeting": "./01-simple-greeting/dist/simple-greeting.js",
+    "./simple-carousel": "./02-simple-carousel/dist/simple-greeting.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

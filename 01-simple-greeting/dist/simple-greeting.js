@@ -1,4 +1,5 @@
 import {html, css, LitElement} from 'lit';
+import {thing} from './constants.js';
 
 export class SimpleGreeting extends LitElement {
   static styles = css`p { color: blue }`;
@@ -13,7 +14,7 @@ export class SimpleGreeting extends LitElement {
   }
 
   render() {
-    return html`<p>Hello, ${this.name} from simple-greeting package!</p>`;
+    return html`<p>Hello, ${this.name} from simple-greeting package! ${thing}</p>`;
   }
 }
 customElements.define('simple-greeting-1', SimpleGreeting);
